@@ -10,5 +10,13 @@ document.getElementById('noakhali-donate-now-btn').addEventListener('click', fun
         return;
     }
 
-    const balance=get
+    const balance=getTextFieldValueById('account-balance');
+
+    if(donate>balance){
+        alert('You do not have enough money to donate!');
+        return;
+    }
+
+    const newBalance=balance-donate;
+    document.getElementById('account-balnace').innerText=newBalance;
 });
