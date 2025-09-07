@@ -1,5 +1,5 @@
 // Noakhali donate
-document.getElementById('noakhali-donate-now-btn').addEventListener('click', function(event){
+document.getElementById('noakhali-donate-btn').addEventListener('click', function(event){
     event.preventDefault();
 
     const donate=getInputFieldValueById('input-donate-amount');
@@ -18,5 +18,5 @@ document.getElementById('noakhali-donate-now-btn').addEventListener('click', fun
     }
 
     const newBalance=balance-donate;
-    document.getElementById('account-balnace').innerText=newBalance;
+    document.getElementById('account-balance').innerText=newBalance;
 });

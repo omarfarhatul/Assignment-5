@@ -22,6 +22,7 @@
         font-family: "Lexend", sans-serif;
       }
     </style>
+
   </head>
   <body class="lexend-font">
     <!-- header section -->
@@ -62,9 +63,9 @@
       </div>
 
       <!-- donate area start -->
-      <div id="donate-form" class="space-y-3 md:space-y-6">
+      <div class="space-y-3 md:space-y-6">
         <!-- noakhali donate card -->
-        <div class="card card-side bg-base-100 shadow-sm grid grid-cols-1 md:grid-cols-2 p-2 md:p-5">
+        <div id="donate-form" class="card card-side bg-base-100 shadow-sm grid grid-cols-1 md:grid-cols-2 p-2 md:p-5">
           <figure>
             <img class="lg:w-5/7" src="./assets/noakhali.png" alt="Noakhali" />
           </figure>
@@ -87,9 +88,9 @@
               lives of those in need.
             </p>
 
-            <input id="input-donate-amount" type="number" class="input w-full mt-3" placeholder="Write Donation Amount.." />
+            <input id="input-donate-amount" type="text" class="input w-full mt-3" placeholder="Write Donation Amount.." />
 
-            <button id="noakhali-donate-now-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
+            <button id="noakhali-donate-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
           </div>
         </div>
 
@@ -114,7 +115,7 @@
 
             <input type="number" class="input w-full mt-3" placeholder="Write Donation Amount.." />
 
-            <button id="feni-donate-now-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
+            <button id="feni-donate-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
           </div>
         </div>
 
@@ -139,7 +140,7 @@
 
             <input type="number" class="input w-full mt-3" placeholder="Write Donation Amount.." />
 
-            <button id="quota-donate-now-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
+            <button id="quota-donate-btn" class="btn mt-3 text-xl font-semibold bg-[#B4F461] py-5">Donate Now</button>
           </div>
         </div>
       </div>
@@ -153,6 +154,10 @@
         </div>
       </div>
       <!-- transction history end -->
+      
+      <script src="js/donate.js"></script>
+      <script src="js/feature.js"></script>
+      <script src="js/utilities.js"></script>
     </main>
 
     <!-- footer section -->

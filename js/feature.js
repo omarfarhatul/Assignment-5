@@ -1,3 +1,3 @@
-document.getElementById('btn-show-cash-out').addEventListener('click', function(){
+document.getElementById('btn-donation').addEventListener('click', function(){
     showSectionById('donate-form');
 });
