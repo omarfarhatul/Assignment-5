@@ -19,4 +19,11 @@ document.getElementById('noakhali-donate-btn').addEventListener('click', functio
 
     const newBalance=balance-donate;
     document.getElementById('account-balance').innerText=newBalance;
+
+
+    // noakhali donation update
+    const noakhaliDonate=getTextFieldValueById('noakhali-donate');
+    const nokhaliNewBalance=noakhaliDonate+donate;
+
+    document.getElementById('noakhali-donate').innerText=nokhaliNewBalance;
 });
