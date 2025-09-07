@@ -26,4 +26,17 @@ document.getElementById('noakhali-donate-btn').addEventListener('click', functio
     const nokhaliNewBalance=noakhaliDonate+Ndonate;
 
     document.getElementById('noakhali-donate').innerText=nokhaliNewBalance;
+
+
+    // add to transaction history
+    const div=document.createElement('div');
+    div.classList.add('bg-blue-200');
+    
+    div.innerHTML=`
+    <h4 class="text-2xl font-bold">Cash Out</h4>
+    <p>Donate Noakhali: ${Ndonate} Tk. & New Balance: ${nokhaliNewBalance}</p>
+    `
+
+    // should be a common function
+    document.getElementById('transaction-container').appendChild(div);
 });

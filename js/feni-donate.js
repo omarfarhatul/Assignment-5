@@ -26,4 +26,17 @@ document.getElementById('feni-donate-btn').addEventListener('click', function(ev
     const feniNewBalance=feniDonate+Fdonate;
 
     document.getElementById('feni-donate').innerText=feniNewBalance;
+
+
+    // add to transaction history
+    const div=document.createElement('div');
+    div.classList.add('bg-blue-200');
+    
+    div.innerHTML=`
+    <h4 class="text-2xl font-bold">Cash Out</h4>
+    <p>Donate Noakhali: ${Fdonate} Tk. & New Balance: ${feniNewBalance}</p>
+    `
+
+    // should be a common function
+    document.getElementById('transaction-container').appendChild(div);
 });
