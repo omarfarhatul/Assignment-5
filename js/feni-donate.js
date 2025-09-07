@@ -33,7 +33,7 @@ document.getElementById('feni-donate-btn').addEventListener('click', function(ev
     div.classList.add('bg-green-200');
     
     div.innerHTML=`
-    <h4 class="text-2xl font-bold">Cash Out</h4>
+    <h4 class="text-2xl font-bold">Donate</h4>
     <p>Donate Feni: ${Fdonate} Tk. & New Balance: ${feniNewBalance}</p>
     `
 

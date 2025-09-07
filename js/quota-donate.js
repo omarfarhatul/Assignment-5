@@ -33,7 +33,7 @@ document.getElementById('quota-donate-btn').addEventListener('click', function(e
     div.classList.add('bg-purple-200');
     
     div.innerHTML=`
-    <h4 class="text-2xl font-bold">Cash Out</h4>
+    <h4 class="text-2xl font-bold">Donate</h4>
     <p>Donate Injured in the Quota: ${Qdonate} Tk. & New Balance: ${quotaNewBalance}</p>
     `
 

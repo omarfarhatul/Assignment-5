@@ -33,7 +33,7 @@ document.getElementById('noakhali-donate-btn').addEventListener('click', functio
     div.classList.add('bg-blue-200');
     
     div.innerHTML=`
-    <h4 class="text-2xl font-bold">Cash Out</h4>
+    <h4 class="text-2xl font-bold">Donate</h4>
     <p>Donate Noakhali: ${Ndonate} Tk. & New Balance: ${nokhaliNewBalance}</p>
     `
 
