@@ -30,11 +30,11 @@ document.getElementById('quota-donate-btn').addEventListener('click', function(e
 
     // add to transaction history
     const div=document.createElement('div');
-    div.classList.add('bg-blue-200');
+    div.classList.add('bg-purple-200');
     
     div.innerHTML=`
     <h4 class="text-2xl font-bold">Cash Out</h4>
-    <p>Donate Noakhali: ${Qdonate} Tk. & New Balance: ${quotaNewBalance}</p>
+    <p>Donate Injured in the Quota: ${Qdonate} Tk. & New Balance: ${quotaNewBalance}</p>
     `
 
     // should be a common function

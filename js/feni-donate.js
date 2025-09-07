@@ -30,11 +30,11 @@ document.getElementById('feni-donate-btn').addEventListener('click', function(ev
 
     // add to transaction history
     const div=document.createElement('div');
-    div.classList.add('bg-blue-200');
+    div.classList.add('bg-green-200');
     
     div.innerHTML=`
     <h4 class="text-2xl font-bold">Cash Out</h4>
-    <p>Donate Noakhali: ${Fdonate} Tk. & New Balance: ${feniNewBalance}</p>
+    <p>Donate Feni: ${Fdonate} Tk. & New Balance: ${feniNewBalance}</p>
     `
 
     // should be a common function
